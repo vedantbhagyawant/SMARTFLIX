@@ -8,7 +8,13 @@
  -Sign Up form
  -Form Validation
  -useRef Hook
-
+ -FireBase Setup
+ -Deploying our App to Production
+ -Create a SignUp user account
+ -Implement SigIN using API 
+ -Created our Redux Store using userSlice
+ -Update Profile
+ -fetch from TMDB movies
 
 # Features
 -login/SignUP
