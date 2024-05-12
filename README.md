@@ -28,6 +28,13 @@
 - Update Store with Tralier Video Data
  - Embedded the Youtube Video and make it autoplay and mute
  - Tailwind classes to make the Main Container Ossam
+ - Build Secondary Component
+ - Build Movie List
+ - Build Movie Card
+ - TMDB Image CDN URL
+ - Made the Browser page amazing with Tailwind CSS
+ - usePopularMovies Custom hooks
+
 
 # Features
 - login/SignUP
