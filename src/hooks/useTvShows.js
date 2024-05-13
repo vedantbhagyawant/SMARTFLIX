@@ -8,7 +8,7 @@ const useTvShows = () => {
     const getTvShows = async() =>{
       const data = await fetch('https://api.themoviedb.org/3/trending/tv/week?language=en-US',API_Option)
       const json = await data.json();
-      console.log(json.results); 
+      
       dispatch(addTvShows(json.results))
     } 
     useEffect(() =>{

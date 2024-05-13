@@ -28,9 +28,7 @@ const handleButtonClick = () =>{
     
 
   const message =  checkValidData(email.current.value,password.current.value);
-    // console.log(email.current.value);
-    // console.log(password.current.value);
-    // console.log(message);
+   
 
 // setErrMessage(message);
 if(message) return;
@@ -51,7 +49,7 @@ createUserWithEmailAndPassword(auth, email.current.value, password.current.value
     }).catch((error) => {
       setErrMessage(errorMessage);
     });
-    console.log(user);
+   
     
      
   })
@@ -67,8 +65,7 @@ else{
   signInWithEmailAndPassword(auth, email.current.value, password.current.value)
   .then((userCredential) => {
    
-    const user = userCredential.user;
-     console.log(user);
+    
      
   })
   .catch((error) => {

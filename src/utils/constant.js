@@ -15,3 +15,7 @@ export const API_Option = {
       };
 
 export const Img_Sec_url = "https://image.tmdb.org/t/p/w500"; 
+
+export const Supported_Lang = [{identifier: "en", name : "English"},
+{identifier: "hindi", name : "Hindi"},{identifier: "spanish", name : "Spanish"}
+]
